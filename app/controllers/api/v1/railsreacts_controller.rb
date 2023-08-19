@@ -1,5 +1,5 @@
 class Api::V1::RailsreactsController < ApplicationController
-  before_action :set_railsreact, only: %i[ show update destroy ]
+  before_action :set_railsreact, only: %i[show update destroy]
 
   # GET /railsreacts
   def index
@@ -39,13 +39,14 @@ class Api::V1::RailsreactsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_railsreact
-      @railsreact = Railsreact.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def railsreact_params
-      params.require(:railsreact).permit(:title, :body)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_railsreact
+    @railsreact = Railsreact.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def railsreact_params
+    params.require(:railsreact).permit(:title, :body)
+  end
 end
