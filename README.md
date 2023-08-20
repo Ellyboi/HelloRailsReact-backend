@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 <div align="center">
   <br/>
-  <h3><b>Hello-rails-back-end</b></h3>
+  <h3><b>Hello-Rails-Backend</b></h3>
 </div>
 <details>
 <summary> 📗 Table of Contents </summary>
@@ -115,7 +115,7 @@ rubocop
 ## 👥 Author <a name="authors"></a>
 
 
-👤 **Vitoesi Elijah**
+👤 **Vitoesi Elijah w**
 
 - Twitter:[@Elijahvitoesi](https://twitter.com/Elijahvitoesi)
 - LinkedIn:[Vitoesi Elijah](https://www.linkedin.com/in/elijah-vitoesi/)
