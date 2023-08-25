@@ -39,7 +39,7 @@ Link to react app: https://github.com/Ellyboi/hello-railsr-eact-frontend
 <details>
 <summary>Backend</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/es/">Ruby</a></li>
+    <li><a href="https://www.ruby-lang.org/es/">Ruby.</a></li>
   </ul>
 </details>
   <details>
@@ -58,7 +58,7 @@ Link to react app: https://github.com/Ellyboi/hello-railsr-eact-frontend
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps....
 
 ### Prerequisites
 
