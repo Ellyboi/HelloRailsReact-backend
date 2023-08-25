@@ -62,4 +62,13 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+  config.middleware.insert_before 0, Rack::Cors do
+    allow do
+      origins 'http://localhost:5173' # or 'http://localhost:3000' for consistency
+      resource '/api/v1/*',
+        headers: :any,
+        methods: [:get, :post, :put, :patch, :delete, :options, :head],
+        credentials: true
+    end
+  end
 end

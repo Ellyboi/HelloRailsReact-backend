@@ -1,2 +1,0 @@
-class Railsreact < ApplicationRecord
-end
